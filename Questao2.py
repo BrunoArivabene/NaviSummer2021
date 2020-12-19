@@ -20,14 +20,14 @@ for i in range(1,11):
         info = (2**i + 4*log(i))
         meuVetor.append(info)
 
-#Printando o valor gerado
+#Printando o vetor gerado
 print(meuVetor)
 
 #Resposta1
 maiorvalor = max(meuVetor)
-print("O maior valor presente no vetor solicitado é: {}.".format(maiorvalor))
+print("O maior valor presente no vetor solicitado é: {0:.2f}.".format(maiorvalor))
 
 #Resposta2
 media = sum(meuVetor)/len(meuVetor)
-print ("A media dos componentes do vetor solicitado é: {0:.2f}.".format(media))
+print ("A média dos componentes do vetor solicitado é: {0:.2f}.".format(media))
 
